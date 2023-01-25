@@ -1,0 +1,70 @@
+body{
+    background-color: lightskyblue;
+}
+.perfil-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section#perfil{
+    background-color: beige;
+    height: 260px;
+}
+section#perfil h3{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10;
+}
+.perfil{
+    margin: 10px;
+}
+
+section#education{
+    background-color:rgb(245, 204, 242);
+    height: 210px;
+}
+.experience-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.experience{
+    border: 5px solid snow;
+    margin: 10px;
+}
+section#experiencia{
+    background-color: rgb(243, 223, 251);
+    height: 440px;
+}
+.habilidades-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.habilidades{
+    margin: 10px;
+    border: 5px solid snow;
+}
+section#habilidades{
+    background-color: rgb(189, 244, 250);
+    height: 260px;
+}
+section#habilidades h3{
+    box-sizing: border-box;   
+    padding: 0;
+}
+
+.contacto-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contacto{
+    margin: 10px;
+}
+
+section#contacto{
+    background-color: rgb(246, 250, 189);
+    height: 230px;
+}
